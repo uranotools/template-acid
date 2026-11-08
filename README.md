@@ -1,5 +1,7 @@
 # Urano Acid · Cyber-Brutalist Presentation
 
+![Urano Acid Cyber-Brutalist Preview](image.png)
+
 Plantilla instalable para **Urano Desktop** basada en el **Template SDK 2**.
 
 Una presentación de alto impacto inspirada en la cultura **Cyber-Brutalista** y **Acid Graphics**: fondos en negro absoluto, acentos verde ácido neón (`#A3FF00`), tipografía monospace táctica, bordes duros y micro-interacciones mecánicas.

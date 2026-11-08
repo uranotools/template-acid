@@ -17,7 +17,7 @@ function add(relative) {
   }
 }
 // Allowlist: never export dependencies, old ZIPs, caches or unrelated local files.
-for (const name of ['template.json', 'package.json', 'package-lock.json', 'vite.config.mjs', 'index.html', 'README.md', 'DESIGN.md', 'LICENSE', 'THIRD_PARTY_LICENSES.md', 'fonts', 'ui', 'scripts', 'docs']) {
+for (const name of ['template.json', 'package.json', 'package-lock.json', 'vite.config.mjs', 'index.html', 'README.md', 'DESIGN.md', 'LICENSE', 'THIRD_PARTY_LICENSES.md', 'image.png', 'fonts', 'ui', 'scripts', 'docs']) {
   if (fs.existsSync(path.join(root, name))) add(name)
 }
 for (const view of manifest.views || []) if (!files[view.bundle]) throw Error('Build first: missing ' + view.bundle)
